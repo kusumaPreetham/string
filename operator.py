@@ -104,3 +104,39 @@ print(c | e)
 
 # bitwise xor operator
 print(c ^ e)
+
+#left shift operator
+a = 5
+b = 3
+print(a>>b)
+
+#right shift operator
+a = 10
+b = 3
+print(a<<b)
+
+#check address of variable
+a = 10
+b = 5
+print(id(a))
+print(id(b))
+
+#identify operator
+#is operator
+a = 50
+b = 50
+print(a is b)
+
+#is not
+a = 5
+b = 5
+print(a is not b)
+
+#member ship operator
+#in operator
+name ="preetham kusuma"
+print("a" in name)
+
+#in not operator
+name ="preetham kusuma"
+print("#" in name)
